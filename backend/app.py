@@ -18,10 +18,6 @@ load_dotenv()
 app = Flask(__name__)
 CORS(app)
 
-# 타로카드 데이터 로드
-with open('data/tarot_cards.json', 'r', encoding='utf-8') as f:
-    tarot_data = json.load(f)
-
 # OpenAI 임베딩 설정
 embeddings = OpenAIEmbeddings(
     api_key=os.getenv("OPENAI_API_KEY")
