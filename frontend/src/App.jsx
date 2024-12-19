@@ -153,8 +153,8 @@ const SendButton = styled.button`
 
 function App() {
   const [messages, setMessages] = useState([
-    { text: "안냥! 고양이 타로 상담사 네로다냥 🐈‍⬛", isUser: false },
-    { text: "궁금한 것을 말해주면 타로 카드를 통해 조언을 해주겠다냥~", isUser: false },
+    { text: "안냥! 고양이 타로 상담사 네로다냥 😸", isUser: false },
+    { text: "궁금한 것을 말해주면 타로 카드를 통해 조언을 해주겠다냥 ~ ", isUser: false },
   ]);
   const [inputText, setInputText] = useState('');
   const [isLoading, setIsLoading] = useState(false);
